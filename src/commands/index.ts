@@ -1,0 +1,5 @@
+export { analyzeCommand, type AnalyzeOptions } from './analyze.js'
+export { depsCommand, type DepsOptions } from './deps.js'
+export { unusedCommand, type UnusedOptions } from './unused.js'
+export { compressCommand, type CompressOptions } from './compress.js'
+export { initCommand, type InitOptions } from './init.js'

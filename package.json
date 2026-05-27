@@ -1,0 +1,50 @@
+{
+  "name": "wechat-devtools-cli",
+  "version": "0.1.0",
+  "description": "CLI toolbox for WeChat Mini Program development",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "wdc": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsup",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "eslint src --ext .ts",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "wechat",
+    "weixin",
+    "mini-program",
+    "cli",
+    "developer-tools",
+    "bundle-analyzer",
+    "wxml",
+    "wxss"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.13.0",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^15.0.0",
+    "fs-extra": "^11.3.5",
+    "ora": "^9.4.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^25.9.1",
+    "tsup": "^8.5.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
+  }
+}
