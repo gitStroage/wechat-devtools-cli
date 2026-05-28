@@ -1,0 +1,13 @@
+@import "/components/header/header.wxss";
+
+.container {
+  padding: 20rpx;
+}
+
+.content {
+  margin-top: 20rpx;
+}
+
+.logo {
+  background-image: url('/images/bg.png');
+}

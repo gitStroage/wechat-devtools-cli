@@ -1,0 +1,4 @@
+<view class="header">
+  <text class="title">{{title}}</text>
+  <image src="/images/back.png" bindtap="onBack" />
+</view>

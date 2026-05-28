@@ -1,0 +1,5 @@
+<view class="container">
+  <my-header title="个人中心" />
+  <image src="/images/avatar.png" />
+  <text>{{userInfo.name}}</text>
+</view>

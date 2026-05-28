@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "test-mini-program",
+  "description": "Test mini program",
+  "appid": "wx1234567890",
+  "setting": {
+    "urlCheck": false
+  }
+}
