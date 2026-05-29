@@ -10,11 +10,11 @@ export function getRelativePath(base: string, filePath: string): string {
 }
 
 export function getFileExtension(filePath: string): string {
-  return path.ext(filePath).toLowerCase()
+  return path.extname(filePath).toLowerCase()
 }
 
 export function getFileNameWithoutExt(filePath: string): string {
-  return path.basename(filePath, path.ext(filePath))
+  return path.basename(filePath, path.extname(filePath))
 }
 
 export function isImageFile(filePath: string): boolean {
